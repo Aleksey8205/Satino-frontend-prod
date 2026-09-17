@@ -1,0 +1,108 @@
+
+.chat-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-self: center;
+}
+
+
+.chat-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.616);
+}
+
+.support-chat {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 500px; /* пока заглушка */
+
+    border-radius: 16px;
+    padding: 20px;
+    
+    background-color: rgb(255, 255, 255);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.chat {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.settings {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.chat-caption {
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.chat-message {
+    height: 100%;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.send-message-block {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.message-text-send {
+    border: none;
+    outline: none;
+    background-color: rgb(243, 243, 243);
+    border-radius: 15px;
+    width: 80%;
+    padding: 10px;
+}
+
+.send-horizontal {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+
+.message {
+    padding: 5px;
+    border-radius: 15px;
+    border: 1px solid black;
+
+    width: 200px;
+}
+
+
+.right {
+    align-self: flex-end;
+    border-bottom-right-radius: 0;
+}
+
+.left {
+    align-self: flex-start;
+    border-bottom-left-radius: 0;
+}
+
+.date-send {
+    text-align: right;
+}
+

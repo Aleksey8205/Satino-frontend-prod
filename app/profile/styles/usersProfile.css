@@ -1,0 +1,77 @@
+.users-container {
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.search {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    gap: 20px;
+}
+
+.input-search {
+    width: 300px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    background-color: rgb(241, 241, 241);
+    padding: 5px;
+}
+
+.search-btn {
+    cursor: pointer;
+}
+
+
+.userHeader {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: rgb(233, 233, 233);
+    padding: 15px;
+    border-radius: 16px;
+}
+
+.text-gray {
+    color: rgb(58, 58, 58);
+}
+
+.user-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 15px;
+    border-bottom: 1px solid rgb(136, 136, 136);
+    border-radius: 15px;
+    
+    margin-bottom: 10px;
+}
+
+
+
+.user-item:nth-last-child(1) {
+    border-bottom: none;
+}
+
+.user-items:nth-child(2n) {
+    background-color: rgb(226, 250, 232);
+    margin-top: 10px;
+}
+
+.img-text {
+    display: flex;
+    align-items: center;
+}
+
+.user-chat {
+    width: 50%;
+    justify-self: center;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(212, 212, 212);
+    
+    cursor: pointer;
+}

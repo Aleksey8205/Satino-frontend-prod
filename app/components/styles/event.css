@@ -1,0 +1,67 @@
+.event-container {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+}
+
+.event-item {
+    border-bottom: 1px solid rgb(211, 211, 211);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.event-item:nth-last-child(1) {
+    border: none;
+}
+
+.event-caption {
+    margin: 8px;
+}
+
+.event-date {
+    margin: 8px;
+}
+
+.event-description {
+    margin: 8px;
+}
+
+.edit-pencil {
+    width: 30px;
+    cursor: pointer;
+}
+
+.update-event {
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.input-update {
+    width: 90%;
+    height: 30px;
+    border-radius: 15px;
+    padding: 10px;
+    border: 1px solid rgb(255, 0, 0, 0.2);
+    background-color: #f3f3f3;
+    outline: none;
+}
+
+.update-decription-post {
+    min-width: 90%;
+    max-width: 90%;
+    min-height: 150px;
+    border-radius: 15px;
+    padding: 10px;
+    border: 1px solid rgb(255, 0, 0, 0.2);
+    background-color: #f3f3f3;
+}
+
+.text-form {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

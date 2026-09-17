@@ -1,0 +1,59 @@
+.profile-cont {
+    max-width: 1200px;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.profile {
+    border: 1px solid black;
+    width: 300px;
+    padding: 25px;
+    border-radius: 15px;
+    margin-bottom: 50px;
+}
+
+
+.create {
+    border: 1px solid rgb(175, 175, 175);
+    width: 45%;
+    padding: 20px;
+    border-radius: 16px;
+    align-self: flex-start;
+}
+
+.create-decription-post {
+    min-width: 90%;
+    max-width: 90%;
+    min-height: 150px;
+    border-radius: 15px;
+    padding: 10px;
+    border: 1px solid rgb(255, 0, 0, 0.2);
+    background-color: #f3f3f3;
+}
+
+
+.input-create {
+    width: 90%;
+    height: 30px;
+    border-radius: 15px;
+    padding: 10px;
+    border: 1px solid rgb(255, 0, 0, 0.2);
+    background-color: #f3f3f3;
+    outline: none;
+}
+
+
+.file {
+    display: none;
+}
+
+
+.flex-file {
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+    align-items: center;
+}

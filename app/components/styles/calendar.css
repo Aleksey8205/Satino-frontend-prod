@@ -1,0 +1,26 @@
+.pravmir-calendar-widget {
+    padding: 15px;
+    border: 1px solid black;
+    font-size: 16px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 320px;
+}
+
+.pw-saints-item a:hover {
+    color: rgb(80, 80, 67);
+}
+
+.download {
+    padding: 15px;
+    border: 1px solid black;
+    font-size: 16px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 320px;
+    height: 150px;
+}

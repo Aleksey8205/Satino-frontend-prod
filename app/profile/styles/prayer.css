@@ -1,0 +1,27 @@
+.container-prayer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.prayer-container {
+    display: flex;
+    gap: 150px;
+}
+
+.prayer-item {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 16px;
+}
+
+.prayer-item_inactive {
+    background-color: rgb(133, 133, 133);
+}
+
+@media (max-width: 600px) {
+    .prayer-container {
+        display: block;
+    }
+}

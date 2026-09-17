@@ -1,0 +1,14 @@
+.caption-create {
+    margin-bottom: 10px;
+}
+
+.text-form {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 980px) {
+    .flex {
+        display: block;
+    }
+}

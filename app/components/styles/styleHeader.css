@@ -1,0 +1,189 @@
+.ReactModal__Body--open {
+ overflow: hidden;
+}
+
+.header {
+    font-family: opensansBold;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.nav {
+    max-width: 1600px;
+    padding: 30px 30px 0 30px;
+    position: relative;
+    z-index: 0;
+}
+
+.header_navigation {
+    list-style-type: none;
+    display: flex;
+    gap: 25px;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.link {
+    padding: 10px 15px;
+    margin-right: 10px;
+    display: inline-block;
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: transparent;
+}
+
+.link:hover {
+    color: #333;
+    border-radius: 10px;
+    background-color: #FAF0E6;
+    box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+.auth {
+    max-width: 1600px;
+    padding: 5px 30px 0 30px;
+}
+
+.modal__overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.modal__content {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 300px;
+    outline: none;
+    border-radius: 15px;
+}
+
+.close {
+    text-align: end;
+    color: #333;
+    cursor: pointer;
+    position: relative;
+    top: -10px;
+}
+
+.cross-icon::before,
+.cross-icon::after {
+  content: '';
+  position: absolute;
+  width: 4px;
+  height: 24px;
+  background-color: currentColor;
+}
+
+.cross-icon::before {
+  transform: rotate(45deg);
+}
+
+.cross-icon::after {
+  transform: rotate(-45deg);
+}
+
+.cross-icon {
+  display: inline-block;
+  position: relative;
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block-form {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.input-form {
+    box-sizing: border-box;
+    width: 100%;
+    outline: none;
+    padding: 10px;
+    border: 1px solid lightblue;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.submit {
+    width: 100%;
+    padding: 7px;
+    background-color: #ecebeb;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    border: none;
+    transition: background-color 0.3s, box-shadow 0.3s; 
+}
+
+.submit:active {
+    background-color: #FAF0E6;
+    box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.btn-yandex-signin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(41, 41, 51, 1);
+    color: #FFFFFF;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 35px;
+  }
+  
+  .btn-yandex-signin:hover {
+    background-color: rgba(27, 27, 38, 1);
+  }
+  
+  .btn-yandex-signin:active {
+    background-color: rgba(10, 10, 25, 1);
+  }
+  
+  .btn-yandex-signin::before {
+    content: '';
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Yandex_icon.svg/2048px-Yandex_icon.svg.png');
+    /* Логотип Яндекса */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+
+  @media (max-width: 500px) {
+    .header_navigation {
+      justify-content: center;
+    }
+    
+    .modal__content {
+      width: auto;
+    }
+
+    .close {
+      top: 0;
+    }
+  }
