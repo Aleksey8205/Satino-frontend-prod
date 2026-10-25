@@ -17,7 +17,7 @@ const AboutPage = () => {
   return (
     <>
       <div className="container">
-        <h1>О храме вознесения господня сатино-русское гор. Москвы</h1>
+        <h1>О Храме Вознесения Господня в Сатино-Русское гор. Москвы</h1>
         <div className="history-container">
           <div className="expandable-section">
             <button

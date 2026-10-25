@@ -13,15 +13,18 @@ const FooterFunc = () => {
           <a href="https://www.patriarchia.ru/">
             <Image className="img-partners" src={imagesHeader.RPC} alt="" />
           </a>
-          <a href="https://nikol-blag.ru/">
+          <a href="https://vikariatstva.ru/?ysclid=mvmnp0fafq451419790">
             <Image
+              width={100}
+              height={100}
               className="img-partners"
-              src={imagesHeader.Nicolscoe}
+              src={imagesHeader.vikarianstva}
               alt=""
             />
           </a>
           <a href="https://moseparh.ru/">
-            <Image className="img-partners" src={imagesHeader.EGM} alt="" />
+            <Image className="img-partners"
+            src={imagesHeader.EGM} alt="" />
           </a>
         </div>
 

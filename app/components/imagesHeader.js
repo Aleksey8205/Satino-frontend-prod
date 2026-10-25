@@ -2,6 +2,7 @@ import Hram from "../../public/Hram.jpg"
 import RPC from "../../public/RPC.gif"
 import EGM from "../../public/EGM.png"
 import Nicolscoe from "../../public/nicolscoe.jpg"
+import vikarianstva from "../../public/Vikarianstva.png"
 import prokina from "../../public/prokina.jpeg"
 import khamatdinov from "../../public/khamatdinov.jpeg"
 import fetisova from "../../public/fetisova.jpeg"
@@ -16,4 +17,5 @@ export default {
     khamatdinov,
     fetisova,
     svidetelstvo,
+    vikarianstva
 }

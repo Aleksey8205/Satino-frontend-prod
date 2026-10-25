@@ -30,7 +30,7 @@ const SupportChat = ({ isOpen = false, onClose = () => {}, userId }: Props) => {
   useEffect(() => {
     if (!isOpen || !userId) return;
 
-    const newSocket = io("http://localhost:3000/chat", { transports: ["websocket"] });
+    const newSocket = io("https://api.satino-next.ru/chat", { transports: ["websocket", 'polling'] });
     setSocket(newSocket);
 
     newSocket.emit("join", userId);

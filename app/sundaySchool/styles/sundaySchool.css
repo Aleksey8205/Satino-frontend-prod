@@ -44,3 +44,24 @@
 .cert {
     width: 800px;
 }
+
+
+@media (max-width: 950px) {
+    .teachers{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .cert {
+        width: 600px;
+
+    }
+}
+
+@media (max-width: 620px) {
+    .cert {
+        width: 300px;
+        height: 300px;
+    }
+}

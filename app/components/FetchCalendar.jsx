@@ -7,7 +7,7 @@ const Calendar = () => {
   useEffect(() => {
     const fetchWidget = async () => {
         try {
-          const response = await fetch("http://localhost:3000/proxy/pravmir");
+          const response = await fetch("https://api.satino-next.ru/proxy/pravmir");
           if (!response.ok) {
             throw new Error("Ошибка при получении данных");
           }

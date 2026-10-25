@@ -75,7 +75,6 @@ const FormCreatePilgrimage = () => {
           },
           body: JSON.stringify({
             title: title.trim(),
-            message: message.trim(), // Отправляем описание
             start: isoStart,
             end: isoEnd,
           }),
@@ -158,34 +157,13 @@ const FormCreatePilgrimage = () => {
         </div>
       </div>
 
-      {/* 3. Поле описания заменено на textarea и привязано к верному состоянию */}
-      <div style={{ marginBottom: "15px" }}>
-        <label
-          htmlFor="description"
-          style={{ display: "block", marginBottom: "5px" }}
-        >
-          Описание паломничества
-        </label>
-        <textarea
-          className="input-create"
-          id="description"
-          value={message}
-          onChange={(e: ChangeEvent<HTMLTextAreaElement>) =>
-            setMessage(e.target.value)
-          }
-          placeholder="Расскажите о цели поездки, маршруте и условиях..."
-          rows={4}
-          required
-        />
-      </div>
-
       {/* Название лучше оставить отдельным коротким полем */}
       <div style={{ marginBottom: "15px" }}>
         <label
           htmlFor="title"
           style={{ display: "block", marginBottom: "5px" }}
         >
-          Название события *
+          Описание
         </label>
         <input
           className="input-create"
